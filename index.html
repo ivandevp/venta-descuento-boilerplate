@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+	<h1>Venta de Producto</h1>
+	<form> 
+        <div>
+            <input id="descuento" type="checkbox" />
+            <label for="descuento">Tiene descuento?</label>
+        </div>
+        <div id="contenedor-descuento" class="hidden">
+            <label for="porcentaje-descuento">Porcentaje de descuento:</label>
+            <input id="porcentaje-descuento" type="number">
+        </div>
+        <div>
+            <input id="cantidad" type="number" placeholder="Cantidad">
+            <input id="precio" type="number" placeholder="Precio">
+        </div>
+        <div>
+            <button id="precio-total" type="button">Calcular Precio Final</button>
+        </div>
+	</form>
+	<div>
+		<p><strong>Precio final: </strong> <span id="resultado"></span></p>
+	</div>
+	<script src="./js/vendor/dont-look-at-me.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+</html>
