@@ -1,4 +1,4 @@
-# Venta de Producto
+# Venta de Producto con descuento
 
 Completa la función que se encuentra en el archivo ```js/app.js```.
 
